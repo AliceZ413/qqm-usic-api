@@ -5,7 +5,7 @@
     "start": "node ./bin/www",
     "start:doc": "docsify serve docs",
     "prepack": "node ./node/build.js",
-	"build": "docker build -t qqmusic:1.0 .",
+	  "build": "docker build -t qqmusic:1.0 .",
     "build:docker": "docker build -t qqmusic:1.0 .",
     "rm:docker": "docker container rm qqmusic -f",
     "start:docker": "docker build -t qqmusic:1.0 . && docker run --name qqmusic -p 8888:80 -d qqmusic:1.0"
