@@ -35,7 +35,8 @@
     "moment": "^2.24.0",
     "morgan": "~1.9.1",
     "useragent": "^2.3.0",
-    "xml2js": "^0.4.22"
+    "xml2js": "^0.4.22",
+    "uglify-js": "^3.14.2"
   },
   "devDependencies": {
     "docsify": "^4"
